@@ -1,0 +1,42 @@
+    body{
+    padding-top: 70px;
+    }
+    .navigation .breadcrumb{
+        float: left;
+        margin: 7px ;
+    }
+
+    .header blockquote {
+        margin-top: 35px;
+    }
+    .recherche{
+        float: left;
+        margin: 7px ;
+    }
+    .col-md-8 {
+        display: -webkit-box;
+        /* margin: 1; */
+    }
+    p.dj-validator-msg {
+        margin: 5  10;
+        font-size: smaller;
+    }
+    
+    
+    @media (max-width: 767px) {
+        .col-md-8 {
+        display: block;
+        /* margin: 1; */
+    }
+    h2 {
+        text-align: center;
+    }
+    button.navbar-toggle.collapsed {
+        color: white;
+    }
+    
+    span.icon-bar {
+        background: white;
+    }
+    }
+  

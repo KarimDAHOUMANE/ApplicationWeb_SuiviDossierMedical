@@ -1,0 +1,108 @@
+
+    body{
+        /* padding-top: 70px; */
+        margin-top: 3em;
+    }
+ 
+    .col-md-8 {
+        display: -webkit-box;
+        /* margin: 1; */
+    }
+    p.dj-validator-msg {
+        margin: 5  10;
+        font-size: smaller;
+    }
+    
+    
+    @media (min-width: 767px) {
+        
+        
+        h2 {
+            text-align: center;
+        }
+        .alert {
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid transparent;
+            border-radius: 4px;
+          }
+
+          .d-flex {
+            display: -webkit-box !important;
+            display: -ms-flexbox !important;
+            display: flex !important;
+          }
+        .align-items-center {
+            -webkit-box-align: center !important;
+            -ms-flex-align: center !important;
+            align-items: center !important;
+          }
+          .justify-content-center {
+            -webkit-box-pack: center !important;
+            -ms-flex-pack: center !important;
+            justify-content: center !important;
+          }
+          element.style {
+            height: 483px;
+            width: 453px;
+        }
+        fieldset { 
+            height: 453px;
+            width: 453px;
+        }
+        label.col-md-4.control-label {
+            padding-right: 0px;
+        }
+    }
+    h3.col-lg-offset-4 {
+        margin-top: 2em;
+    }
+   
+    .col-md-8 {
+        display: -webkit-box;
+        /* margin: 1; */
+    }
+    p.dj-validator-msg {
+        margin: 5  10;
+        font-size: smaller;
+    }
+    
+    
+    @media (max-width: 767px) {
+        .col-md-8 {
+        display: block;
+        /* margin: 1; */
+    }
+    h2 {
+        text-align: center;
+    }
+    }
+    .alert {
+        text-align: center;
+        margin-top: 15px;
+    }
+   
+
+    input#validate {
+        margin-right: 80px;
+        margin-top: 20px;
+    }
+    button.btn {
+        margin-top: 20px;
+    }
+    .alert.alert-success {
+        margin-top: 37px;
+    }
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+        border: 1px solid #ddd;
+      }
+      
+      th, td {
+        text-align: left;
+        padding: 8px;
+      }
+      
+      tr:nth-child(even){background-color: #f2f2f2}
